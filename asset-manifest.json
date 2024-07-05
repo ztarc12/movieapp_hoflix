@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/movieapp_hoflix/static/css/main.89868a28.css",
-    "main.js": "/movieapp_hoflix/static/js/main.4e2c4a52.js",
+    "main.css": "/movieapp_hoflix/static/css/main.d32ad7db.css",
+    "main.js": "/movieapp_hoflix/static/js/main.be5f0271.js",
     "static/js/453.6f2e229a.chunk.js": "/movieapp_hoflix/static/js/453.6f2e229a.chunk.js",
     "index.html": "/movieapp_hoflix/index.html",
-    "main.89868a28.css.map": "/movieapp_hoflix/static/css/main.89868a28.css.map",
-    "main.4e2c4a52.js.map": "/movieapp_hoflix/static/js/main.4e2c4a52.js.map",
+    "main.d32ad7db.css.map": "/movieapp_hoflix/static/css/main.d32ad7db.css.map",
+    "main.be5f0271.js.map": "/movieapp_hoflix/static/js/main.be5f0271.js.map",
     "453.6f2e229a.chunk.js.map": "/movieapp_hoflix/static/js/453.6f2e229a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89868a28.css",
-    "static/js/main.4e2c4a52.js"
+    "static/css/main.d32ad7db.css",
+    "static/js/main.be5f0271.js"
   ]
 }
