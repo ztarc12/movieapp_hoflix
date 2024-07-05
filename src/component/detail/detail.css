@@ -1,0 +1,78 @@
+.test {
+  color: #fff;
+}
+.detailTopImg {
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.detailInfo {
+  margin: 3rem 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.detailPoster {
+  width: 250px;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+.movieInfo {
+  width: 50%;
+  padding: 2rem;
+  text-align: left;
+}
+.movieInfo>div {
+  margin-bottom: 1.5rem;
+}
+.movieInfo>div>* {
+  margin-bottom: 1rem;
+}
+.movieDetailGenre>span {
+  margin-right: 0.5rem;
+}
+.similerMoive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.similerMoive {
+  margin-top: 3rem;
+}
+.similerTitle {
+  margin: 1.5rem;
+}
+@media (max-width: 767px) {
+  * {
+    box-sizing: border-box;
+  }
+  .detailTopImg {
+    width: 100%;
+  }
+  .detailInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .movieInfo {
+    width: 100%;
+    text-align: center;
+  }
+  .movieOverview{
+    text-align: left;
+  }
+  .allMovieBox {
+    width: 100%;
+  }
+  .card {
+    width: 100px;
+    height: 180px;
+  }
+  .cardInner>h3 {
+    font-size: 1rem;
+  }
+}
