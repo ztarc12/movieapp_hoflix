@@ -3,11 +3,8 @@ import Menu from './component/menu/Menu';
 import Banner from './component/banner/Banner';
 import Search from './component/search/Search';
 import Detail from './component/detail/Detail';
-import useMoiveData from './useMoiveData';
 
-import { useEffect, useState } from 'react';
-import { Link, Route, Routes } from 'react-router-dom'
-import axios from 'axios';
+import { HashRouter as Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
