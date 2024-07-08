@@ -45,7 +45,7 @@ const useMoiveData = (id)=>{
       }
     }
     movieData()
-  }, [])
+  }, [id, API_KEY, language, trendDataUrl, popularDataUrl, genreListDataUrl, discoverDataUrl])
   return {trendMovies, popularMovies, genreListMovies, discoverMovies, similerMovies}
 }
 
