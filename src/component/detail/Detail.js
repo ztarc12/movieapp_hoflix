@@ -1,7 +1,7 @@
 import './detail.css'
 // import '../detail/detail.css'/
 
-import { useNavigate, useParams } from "react-router-dom"
+import { Link, useNavigate, useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
 import axios from "axios"
 import useMoiveData from '../../useMoiveData';
@@ -44,6 +44,9 @@ function Detail(){
   const DetailPage = (id) => {
     // navigate(`/detail/${id}`)
     window.location.href = `/detail/${id}`
+    return (
+      <Link></Link>
+    )
   }
   return(
     <section className="test">
