@@ -4,7 +4,7 @@ import Banner from './component/banner/Banner';
 import Search from './component/search/Search';
 import Detail from './component/detail/Detail';
 
-import { HashRouter as Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
